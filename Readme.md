@@ -43,13 +43,36 @@ html is markup language for building web pages.
 
 ## UI & UX
 
+UI: User interface of application.
+UX: User experience of user based on the application.
+
 ---
 
-## UI titles
+## UI sections
+
+- Typography
+- Color
+- Container
+- Table
+- List
+- Figure
+- Multimedia
+- Form
 
 ---
 
-## UX titles
+## UX sections
+
+- Experience strategy
+- User research
+- Information architecture
+- Interaction design
+
+---
+
+## Comment
+
+- ``` <!-- comment --> ```
 
 ---
 
@@ -77,7 +100,6 @@ html is markup language for building web pages.
 - ```<h1> heading 1 tag </h1> ... <h6> heading 6 tag </h6>```
 - HTML category: Pair tag
 - UI category: Typography
-- UI category: Typography
 - Heading tags is suitable for plain text and content.
 
 ---
@@ -87,7 +109,6 @@ html is markup language for building web pages.
 - b - strong - i - em - del - ins - mark - sub
 - ```<mark> highlighted tag </mark>```
 - HTML category: Pair tag
-- UI category: Typography
 - UI category: Typography
 - formatting tags is suitable for plain text and content.
 
@@ -100,6 +121,20 @@ html is markup language for building web pages.
 - HTML category: Pair tag
 - UI category: Link
 - Hyperlink
+
+---
+
+## Quotation elements
+
+- q - abbr - address - blockquote - cite - bdo
+- ``` <q> quotation element </q> ```
+- ``` <abbr> abbreviation </abbr> ```
+- ``` <address> address </address> ```
+- ``` <blockquote cite="url"> quote </blockquote> ```
+- ``` <cite> artwork </cite> ```
+- ``` <bdo dir="ltr"> bi-directional override </bdo> ```
+- HTML category: Pair tag
+- UI category: Typography
 
 ---
 
