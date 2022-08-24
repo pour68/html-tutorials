@@ -4,7 +4,9 @@
 
 - founder: Tim Berners-Lee
 - birthdate: 1993
-- story: The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999.
+- story: The first version of HTML was written by Tim Berners-Lee in 1993 that is extension of SGML, since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999, Another version, XHTML, was a rewrite of HTML as an XML language became an official standard in 2000 and then HTML5 became an latest HTML standard in 2011 till now.
+- goals: HTML code ensures the proper formatting of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance.
+- GML(1969)(Charles Goldfarb, Edward Mosher and Raymond Lorie) -> SGML(1986)(IBM) -> XML(1990)(W3C) -> HTML(1993)(W3C & WHATWG)
 
 ---
 
@@ -32,12 +34,17 @@ html is markup language for building web pages.
 
 ## Setting up your development environment
 
-- TextEditor: VSCode - Atom - ...
+- TextEditor: Notepad
+- Advance TextEditor: VSCode - Atom - ...
 
 ### VSCode extensions
 
 - Live server
 - Auto close tag
+- Auto rename tag
+- Indent rainbow
+- Material icon theme
+- Prettier
 
 ---
 
@@ -148,6 +155,28 @@ UX: User experience of user based on the application.
 
 ---
 
+## image map
+
+- ```<img src="table.jpg" alt="workshop table" usemap="#workmap" />```
+
+- ```<map name="workmap">```
+- ```<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" />```
+- ```<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" />```
+- ```<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />```
+- ```</map>```
+
+---
+
+## picture
+
+- ```<picture>```
+- ```<source media="(min-width:650px)" srcset="img_pink_flowers.jpg">```
+- ```<source media="(min-width:465px)" srcset="img_white_flower.jpg">```
+- ```<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">```
+- ```</picture>```
+
+---
+
 ## Meta tags
 
 - ```<meta charset="UTF-8" />```
@@ -156,6 +185,9 @@ UX: User experience of user based on the application.
 ---
 
 ## Style & Script
+
+``` <link rel="stylesheet" href="url" /> ```
+``` <script src="url"></script> ```
 
 ---
 
@@ -227,4 +259,4 @@ UX: User experience of user based on the application.
 
 ## Form elements
 
-- form - input - label -  select - textarea - button - fieldset - legend - datalist - output - option - optgroup 
+- form - input - label -  select - textarea - button - fieldset - legend - datalist - output - option - optgroup
