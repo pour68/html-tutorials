@@ -84,6 +84,18 @@ UX: User experience of user based on the application.
 
 - ``` <!-- comment --> ```
 
+### types
+
+- single line
+- multiline
+
+---
+
+## sketch, wireframe, Prototype apps
+
+- figma
+- adobe xd
+
 ---
 
 ## HTML tag types
@@ -92,6 +104,15 @@ UX: User experience of user based on the application.
 ```e.g: <br /> - <hr />```
 - pair tag
 ```e.g: <p> plain text </p>```
+
+---
+
+## Difference between plaintext and content
+
+- plaintext
+```e.g: <p> plain text </p>```
+- content
+```e.g: <p> plain text <br /> </p>```
 
 ---
 
@@ -111,6 +132,10 @@ UX: User experience of user based on the application.
 - HTML category: Pair tag
 - UI category: Typography
 - Heading tags is suitable for plain text and content.
+
+---
+
+## emmet method
 
 ---
 
