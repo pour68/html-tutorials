@@ -10,9 +10,9 @@
 
 ---
 
-## Why html?
+## Why HTML?
 
-html is markup language for building web pages.
+HTML is markup language for building web pages its also called language of tags.
 
 ---
 
@@ -34,8 +34,11 @@ html is markup language for building web pages.
 
 ## Setting up your development environment
 
-- TextEditor: Notepad
+- TextEditor: Notepad(windows) - TextEdit(macos) - vim(linux)
 - Advance TextEditor: VSCode - Atom - ...
+- IDE: Visual studio - ...
+
+---
 
 ### VSCode extensions
 
