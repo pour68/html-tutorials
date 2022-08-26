@@ -80,7 +80,7 @@ UX: User experience of user based on the application.
 
 ---
 
-## Real world examples that show the role of HTML in web
+## HTML analogy
 
 - human-body skeleton
 - skeleton of building
