@@ -16,6 +16,12 @@ HTML is markup language for building web pages its also called language of tags.
 
 ---
 
+## HTML definition
+
+HTML stands for HyperText Markup Language.
+
+---
+
 ## HTML file extensions
 
 - .htm - .html
