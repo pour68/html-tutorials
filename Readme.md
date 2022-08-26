@@ -2,7 +2,7 @@
 
 ## History
 
-- founder: Tim Berners-Lee
+- founder: Tim Berners-Lee (is an English computer scientist best known as the inventor of www)
 - birthdate: 1993
 - story: The first version of HTML was written by Tim Berners-Lee in 1993 that is extension of SGML, since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999, Another version, XHTML, was a rewrite of HTML as an XML language became an official standard in 2000 and then HTML5 became an latest HTML standard in 2011 till now.
 - goals: HTML code ensures the proper formatting of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance.
@@ -84,14 +84,14 @@ UX: User experience of user based on the application.
 
 - ``` <!-- comment --> ```
 
-### types
+### Types
 
 - single line
 - multiline
 
 ---
 
-## sketch, wireframe, Prototype apps
+## Sketch, wireframe, prototype apps
 
 - figma
 - adobe xd
@@ -136,6 +136,10 @@ UX: User experience of user based on the application.
 ---
 
 ## emmet method
+
+``` e.g.: ! !!! doc ```
+``` e.g.: p*2 ```
+``` e.g.: h${Heading $}*6 ```
 
 ---
 
