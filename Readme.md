@@ -174,6 +174,11 @@ high-speed markup language tag generator.
 ``` e.g.: ! !!! doc ```
 ``` e.g.: p*2 ```
 ``` e.g.: h${Heading $}*6 ```
+``` e.g.: h${Heading $$}*6 ```
+``` e.g.: p[title="paragraph"] ```
+``` e.g.: (header.header#header>nav.nav>ul.nav__list>li.nav__item*6>a.nav__link)+main+footer ```
+``` e.g.: header.header#header>nav.nav>ul.nav__list>li.nav__item*6>a.nav__link^main+footer ```
+``` e.g.: form:post>(.group>label+input:text)+(.group>label+input:number) ```
 
 ---
 
