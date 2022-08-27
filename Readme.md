@@ -129,24 +129,24 @@ UX: User experience of user based on the application.
 ## HTML tag types
 
 - empty tag
-```e.g: <br /> - <hr />```
+``` e.g: <br /> - <hr /> ```
 - pair tag
-```e.g: <p> plain text </p>```
+``` e.g: <p> plain text </p> ```
 
 ---
 
 ## Difference between plaintext and content
 
 - plaintext
-```e.g: <p> plain text </p>```
+``` e.g: <p> plain text </p> ```
 - content
-```e.g: <p> plain text <br /> </p>```
+``` e.g: <p> plain text <br /> </p> ```
 
 ---
 
 ## Paragraph tag
 
-- ```<p> paragraph tag </p>```
+- ``` <p> paragraph tag </p> ```
 - HTML category: Pair tag
 - UI category: Typography
 - Paragraph tag is suitable for plain text and content.
@@ -156,7 +156,7 @@ UX: User experience of user based on the application.
 ## Headings
 
 - h1 - h2 - h3 - h4 - h5 - h6
-- ```<h1> heading 1 tag </h1> ... <h6> heading 6 tag </h6>```
+- ``` <h1> heading 1 tag </h1> ... <h6> heading 6 tag </h6> ```
 - HTML category: Pair tag
 - UI category: Typography
 - Heading tags is suitable for plain text and content.
@@ -184,11 +184,31 @@ high-speed markup language tag generator.
 
 ## Formatting elements
 
-- b - strong - i - em - del - ins - mark - sub
-- ```<mark> highlighted tag </mark>```
+- b - strong - i - em - del - ins - mark - sub - sup
+- ``` <mark> highlighted tag </mark> ```
 - HTML category: Pair tag
 - UI category: Typography
 - formatting tags is suitable for plain text and content.
+
+---
+
+## HTML tags behavior
+
+- inline-level
+- block-level
+
+---
+
+## Attributes
+
+key/value paired data that defines on start tag of html tags and control the behavior of that tag.
+
+- ``` <p title="paragraph">paragraph</p> ```
+- ``` <p id="description">paragraph</p> ```
+- ``` <h1 class="heading" id="heading">paragraph</h1> ```
+
+- [language code](https://www.w3schools.com/tags/ref_language_codes.asp)
+- [country code](https://www.w3schools.com/tags/ref_country_codes.asp)
 
 ---
 
@@ -216,6 +236,19 @@ high-speed markup language tag generator.
 
 ---
 
+## Computer code
+
+- code - kbd - samp - pre - var
+- ``` <code> computer code </code> ```
+- ``` <kbd> keyboard input </kbd> ```
+- ``` <samp> sample output </samp> ```
+- ``` <pre> preformatted text </pre> ```
+- ``` <var> variable </var> ```
+- HTML category: Pair tag
+- UI category: Typography
+
+---
+
 ## image
 
 - img
@@ -228,30 +261,45 @@ high-speed markup language tag generator.
 
 ## image map
 
-- ```<img src="table.jpg" alt="workshop table" usemap="#workmap" />```
+- ``` <img src="table.jpg" alt="workshop table" usemap="#workmap" /> ```
 
-- ```<map name="workmap">```
-- ```<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" />```
-- ```<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" />```
-- ```<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" />```
-- ```</map>```
+- ``` <map name="workmap"> ```
+- ``` <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" /> ```
+- ``` <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" /> ```
+- ``` <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" /> ```
+- ``` </map> ```
+
+- [image map generator](http://image-map.weebly.com/)
 
 ---
 
 ## picture
 
-- ```<picture>```
-- ```<source media="(min-width:650px)" srcset="img_pink_flowers.jpg">```
-- ```<source media="(min-width:465px)" srcset="img_white_flower.jpg">```
-- ```<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">```
-- ```</picture>```
+- ``` <picture> ```
+- ``` <source media="(min-width:650px)" srcset="img_pink_flowers.jpg" /> ```
+- ``` <source media="(min-width:465px)" srcset="img_white_flower.jpg" /> ```
+- ``` <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;" /> ```
+- ``` </picture> ```
+- HTML category: Pair tag
+- UI category: Figure
+- Picture
 
 ---
 
 ## Meta tags
 
-- ```<meta charset="UTF-8" />```
+- ``` <meta charset="UTF-8" /> ```
+- ``` <meta name="description" content="Free Web tutorials" /> ```
+- ``` <meta name="keywords" content="HTML, CSS, JavaScript" /> ```
+- ``` <meta name="author" content="Pouria Nayeb" /> ```
+- ``` <meta http-equiv="x-ua-compatible" content="ie=edge" /> ```
+- ``` <meta name="viewport" content="width=device-width, initial-scale=1.0" /> ```
+- ``` <meta http-equiv="refresh" content="30" /> ```
+- ``` <base href="https://www.w3schools.com/" target="_blank" /> ```
 - For SEO & Technical purposes.
+
+- [meta tags](https://htmlcheatsheet.com/)
+- [image splitter](https://pinetools.com/split-image)
 
 ---
 
@@ -262,10 +310,19 @@ high-speed markup language tag generator.
 
 ---
 
+## Browser JavaScript engines
+
+- Safari v8
+- IE/Edge Chakra
+- FF Spider Monkey
+- Apple Javascript Core Webkit
+
+---
+
 ## Container elements
 
 - div - span
-- ```<div> <h1> Heading 1 </h1> <p> Paragraph </p> </div>```
+- ``` <div> <h1> Heading 1 </h1> <p> Paragraph </p> </div> ```
 - HTML category: Pair tag
 - UI category: Container
 - Container tags can be a container for all html tags.
@@ -274,18 +331,30 @@ high-speed markup language tag generator.
 
 ## Semantic elements
 
-- main - header - footer - section - article - aside - figure - figcaption - ruby
-- ```<article> <h1> Heading 1 </h1> <p> Paragraph </p> </article>```
+- main - header - footer - section - article - aside - figure - figcaption - time - details - summary - dialog - ruby - rt - rp
+- ``` <article> <h1> Heading 1 </h1> <p> Paragraph </p> </article> ```
+- ``` <dialog open>This is an open dialog window</dialog> ```
+- ``` <details> <summary>Epcot Center</summary> <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p> </details> ```
+- ``` <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby> ```
+- ``` <ruby> 漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp> </ruby> ```
 - HTML category: Pair tag
 - UI category: Container
 - Container tags can be a container for all html tags.
 
 ---
 
+## Entities, Symbol and emojis
+
+- [HTML entities](https://www.w3schools.com/html/html_entities.asp)
+- [HTML symbol](https://www.w3schools.com/html/html_symbols.asp)
+- [HTML emojis](https://www.w3schools.com/html/html_emojis.asp)
+
+---
+
 ## table elements
 
 - table - caption - tr - th - td - thead - tbody - tfoot
-- ```<table> <tr> <th> ID </th> <th> Name </th> </tr> <tr> <td> 1 </td> <td> Pouria </td> </tr>  </table>```
+- ``` <table> <tr> <th> ID </th> <th> Name </th> </tr> <tr> <td> 1 </td> <td> Pouria </td> </tr>  </table> ```
 - HTML category: Pair tag
 - UI category: Table
 - Table tag can be a container for all tabular data.
@@ -315,7 +384,12 @@ high-speed markup language tag generator.
 ## Multimedia elements
 
 - video - audio - embed - object - source - track
-- ```<video src="address"></video>```
+- ``` <video src="address" controls muted autoplay></video> ```
+- ``` <audio src="address" controls muted autoplay></audio> ```
+- ``` <object data="address"></object> ```
+- ``` <embed src="address" /> ```
+- ``` <audio controls> <source src="horse.ogg" type="audio/ogg" /> <source src="horse.mp3" type="audio/mpeg" /> Your browser does not support the audio element. </audio> ```
+- ``` <video width="320" height="240" controls> <source src="forrest.mp4" type="video/mp4" /> <source src="forrest.ogg" type="video/ogg" /> <track src="fg_subtitles_en.vtt" kind="subtitles" srclang="en" label="English" /> <track src="fg_subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian" /> </video> ```
 - HTML category: Both
 - UI category: Multimedia
 - Multimedia tags is used to display multimedia content in html document.
@@ -325,9 +399,48 @@ high-speed markup language tag generator.
 ## Graphic elements
 
 - svg - canvas
+- ``` <svg width="100" height="100"> <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /> </svg> ```
+- ``` <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"> Your browser does not support the HTML canvas tag. </canvas> ```
 
 ---
 
 ## Form elements
 
-- form - input - label -  select - textarea - button - fieldset - legend - datalist - output - option - optgroup
+- form - input - label -  select - textarea - button - fieldset - legend - datalist - output - option - optgroup - datalist - output - progress - meter
+
+---
+
+## URL encoding/decoding
+
+- [URL encoding/decoding](https://meyerweb.com/eric/tools/dencoder/)
+
+---
+
+## HTML validator
+
+- [W3 HTML validator](https://validator.w3.org/)
+
+---
+
+## HTML vs XHTML
+
+- [XHTML vs HTML](https://www.w3schools.com/html/html_xhtml.asp)
+
+---
+
+## HTML accessibility
+
+- role attribute
+- aria-* attribute
+
+- [Aria attribute helper](https://www.w3.org/TR/html-aria/)
+
+---
+
+## HTML API
+
+- GeoLocation
+- Drag/Drop
+- Web storage
+- Web workers
+- SSE
