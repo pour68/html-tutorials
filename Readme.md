@@ -459,6 +459,16 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
+## Question 3
+
+1. Computer components
+
+### Exercise 3
+
+1. Computer buying guide
+
+---
+
 ## Graphic elements
 
 - svg - canvas
