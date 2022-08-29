@@ -1,6 +1,6 @@
 # HTML
 
-![HTML](https://github.com/pour68/html-tutorials/images/html-header.jpg)
+![HTML Tutorials](https://github.com/pour68/html-tutorials/blob/master/images/html-header.jpg "HTML Tutorials")
 
 ## History
 
