@@ -194,6 +194,16 @@ high-speed markup language tag generator.
 
 ---
 
+## Marquee element(obsolete)
+
+```<marquee behavior="scroll|slide|alternate" bgcolor="color|hex" direction="left|right|up|down" height="" width="" loop="-1" scrollamount="6" scrolldelay="85"> content </marquee>```
+
+- scrollamount: Sets the amount of scrolling at each interval in pixels. The default value is 6.
+- scrollDelay: Sets the interval between each scroll movement in milliseconds. The default value is 85. Note that any value smaller than 60 is ignored and the value 60 is used instead, unless truespeed is specified.
+- truespeed: By default,scrolldelay values lower than 60 are ignored. If truespeed is present, those values are not ignored.
+
+---
+
 ## HTML tags behavior
 
 - inline-level
@@ -410,7 +420,43 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ## Form elements
 
-- form - input - label -  select - textarea - button - fieldset - legend - datalist - output - option - optgroup - datalist - output - progress - meter
+- form - label - input -  select - option - textarea - button - fieldset - legend - datalist - output - optgroup - datalist - output - progress - meter
+
+- ``` <form method="get|post" action="url" enctype="multipart/form-data" autocomplete="on" novalidate> content </form> ```
+- ``` <label for="input id">plain text</label> ```
+- ``` <input type="text|password|email|search|tel|url" id="" class="" placeholder="" value="" pattern="" minlength="" maxlength=" name="" size="" required autofocus readonly disabled /> ```
+- ``` <input type="hidden" /> ```
+- ``` <input type="number" min="1" max="5" step="2" /> ```
+- ``` <input type="range" min="0" max="50" /> ```
+- ``` <input type="date" min="YYYY-MM-DD" max="YYYY-MM-DD" /> ```
+- ``` <input type="month|week" /> ```
+- ``` <input type="datetime-locale" /> ```
+- ``` <input type="time" /> ```
+- ``` <input type="checkbox" checked /> ```
+- ``` <input type="radio" checked /> ```
+- ``` <input type="color" /> ```
+- ``` <input type="file" multiple /> ```
+- ``` <textarea cols="" rows=""></textarea> ```
+- ``` <select> <option value=""></option> <option value=""></option> </select> ```
+- ```<select  name="cars" id="cars"> <optgroup label="Swedish Cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> </optgroup> <optgroup label="German Cars"> <option value="mercedes">Mercedes</option> <option value="audi">Audi</option> </optgroup> </select>```
+- ``` <input type="button|reset|submit|image" value="" /> ```
+- ``` <button type="button|reset|submit"> content </button> ```
+- ``` <fieldset> <legend> label </legend> </fieldset> ```
+- ``` <label for="browser">Choose your browser from the list:</label> <input list="browsers" name="browser" id="browser" /> <datalist id="browsers"> <option value="Edge" /> <option value="Firefox" /> <option value="Chrome" /> <option value="Opera" /> <option value="Safari" /></datalist> ```
+- ``` <form oninput="x.value=parseInt(a.value)+parseInt(b.value)"> <input type="range" id="a" value="50" /> + <input type="number" id="b" value="25" /> = <output name="x" for="a b"></output> </form> ```
+- ``` <progress value="32" max="100"> 32% </progress> ```
+- ``` <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter> ```
+
+1. ``` The <fieldset> tag is used to group related elements in a form ```
+2. ``` The <fieldset> tag draws a box around the related elements. ```
+3. ``` The <legend> tag is used to define a caption for the <fieldset> element. ```
+
+---
+
+## Input form attribute
+
+- ``` <form id="login"></form> <input type="text" form="login" /> ```
+- ``` <form> <input type="submit" formaction="url" formenctype="multipart/form-data" formmethod="post" formtarget="_blank" formnovalidate="formnovalidate" value="" /> </form> ```
 
 ---
 
@@ -429,6 +475,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 ## HTML vs XHTML
 
 - [XHTML vs HTML](https://www.w3schools.com/html/html_xhtml.asp)
+
+---
+
+## Browser support
+
+- [can I use](https://caniuse.com/)
 
 ---
 
