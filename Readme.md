@@ -298,6 +298,21 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
+## Questions 1
+
+1. What is a computer?
+2. What is DNS?
+3. What is IP?
+
+### Exercise 1
+
+1. What is os?
+2. What is os ISO file?
+3. What is hardware?
+4. What is software?
+
+---
+
 ## Meta tags
 
 - ``` <meta charset="UTF-8" /> ```
@@ -321,6 +336,20 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ``` <link rel="stylesheet" href="url" /> ```
 ``` <script src="url"></script> ```
+
+---
+
+## Question 2
+
+1. What is CDN?
+2. What is deep and dark web?
+3. What is device mac-address?
+
+### Exercise 2
+
+1. What is driver?
+2. How to access windows charset?
+3. How to access windows emojis?
 
 ---
 
@@ -354,6 +383,18 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Container
 - Container tags can be a container for all html tags.
+
+---
+
+## HTML validator
+
+- [W3 HTML validator](https://validator.w3.org/)
+
+---
+
+## HTML vs XHTML
+
+- [XHTML vs HTML](https://www.w3schools.com/html/html_xhtml.asp)
 
 ---
 
@@ -392,6 +433,14 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Multimedia
 - Iframe tag can be used to as tool to display a website inside another one.
+
+---
+
+## Questions 3
+
+1. Client/Server pattern
+2. [HTTP response status code](https://www.w3schools.com/tags/ref_httpmessages.asp)
+3. [HTTP methods](https://www.w3schools.com/tags/ref_httpmethods.asp)
 
 ---
 
@@ -463,18 +512,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 ## URL encoding/decoding
 
 - [URL encoding/decoding](https://meyerweb.com/eric/tools/dencoder/)
-
----
-
-## HTML validator
-
-- [W3 HTML validator](https://validator.w3.org/)
-
----
-
-## HTML vs XHTML
-
-- [XHTML vs HTML](https://www.w3schools.com/html/html_xhtml.asp)
 
 ---
 
