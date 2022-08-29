@@ -10,7 +10,7 @@
 - goals: HTML code ensures the proper formatting of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance.
 - GML(1969)(Charles Goldfarb, Edward Mosher and Raymond Lorie) -> SGML(1986)(IBM) -> XML(1990)(W3C) -> HTML(1993)(W3C & WHATWG)
 
-![Tim Berners-Lee](https://i.guim.co.uk/img/media/78d8b6633929f6f931bf16f00057c3817c82ec76/0_0_5098_3059/master/5098.jpg?width=620&quality=85&fit=max&s=4805969f026815bd52a888fdb7b225e0 "Tim Berners-Lee")
+![Tim Berners-Lee](https://github.com/pour68/html-tutorials/blob/master/images/tim-berners-lee.png "Tim Berners-Lee")
 
 ---
 
