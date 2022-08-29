@@ -298,10 +298,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 - ``` <meta name="viewport" content="width=device-width, initial-scale=1.0" /> ```
 - ``` <meta http-equiv="refresh" content="30" /> ```
 - ``` <base href="https://www.w3schools.com/" target="_blank" /> ```
+- ``` <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> ```
 - For SEO & Technical purposes.
 
 - [meta tags](https://htmlcheatsheet.com/)
 - [image splitter](https://pinetools.com/split-image)
+- [convert png to ico](https://www.freeconvert.com/png-to-ico)
 
 ---
 
