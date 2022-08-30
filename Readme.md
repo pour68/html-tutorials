@@ -261,7 +261,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
-## image
+## Image
 
 - img
 - ``` <img src="address" alt="text" /> ```
@@ -271,7 +271,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
-## image map
+## Image map
 
 - ``` <img src="table.jpg" alt="workshop table" usemap="#workmap" /> ```
 
@@ -285,7 +285,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
-## picture
+## Picture
 
 - ``` <picture> ```
 - ``` <source media="(min-width:650px)" srcset="img_pink_flowers.jpg" /> ```
