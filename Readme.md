@@ -414,6 +414,8 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: Table
 - Table tag can be a container for all tabular data.
 
+- [HTML table generator](https://www.textfixer.com/html/html-table-generator.php)
+
 ---
 
 ## List elements
