@@ -2,6 +2,16 @@
 
 ![HTML Tutorials](https://github.com/pour68/html-tutorials/blob/master/images/html-header.jpg "HTML Tutorials")
 
+## Study pattern
+
+1. History
+2. Definition
+3. Settings up development environment
+4. Topics
+   - Basic
+   - Intermediate
+   - Advance
+
 ## History
 
 - founder: Tim Berners-Lee (is an English computer scientist best known as the inventor of www)
