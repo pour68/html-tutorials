@@ -346,6 +346,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ``` <link rel="stylesheet" href="url" /> ```
 ``` <script src="url"></script> ```
+``` <noscript>Your browser does not support JavaScript</noscript> ```
 
 ---
 
@@ -384,7 +385,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ## Semantic elements
 
-- main - header - footer - section - article - aside - figure - figcaption - time - details - summary - dialog - ruby - rt - rp
+- main - header - footer - nav - section - article - aside - figure - figcaption - time - details - summary - dialog - ruby - rt - rp
 - ``` <article> <h1> Heading 1 </h1> <p> Paragraph </p> </article> ```
 - ``` <dialog open>This is an open dialog window</dialog> ```
 - ``` <details> <summary>Epcot Center</summary> <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p> </details> ```
@@ -416,7 +417,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
-## table elements
+## Table elements
 
 - table - caption - tr - th - td - thead - tbody - tfoot
 - ``` <table> <tr> <th> ID </th> <th> Name </th> </tr> <tr> <td> 1 </td> <td> Pouria </td> </tr>  </table> ```
@@ -431,7 +432,8 @@ key/value paired data that defines on start tag of html tags and control the beh
 ## List elements
 
 - ul - ol - dl - li - dt - dd
-- ``` <ul> <li>Mango</li> <li>Milk</li> </ul> ```
+- ``` <ul type="circle|square|disc|none"> <li>Mango</li> <li>Milk</li> </ul> ```
+- ``` <ol type="1|A|a|I|i" reversed> <li>Mango</li> <li>Milk</li> </ol> ```
 - HTML category: Pair tag
 - UI category: List
 - List tag can be a container for all list items.
@@ -441,7 +443,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 ## Iframe element
 
 - iframe
-- ``` <iframe href=""></iframe> ```
+- ``` <iframe href="" width="" height="" name=""></iframe> ```
 - HTML category: Pair tag
 - UI category: Multimedia
 - Iframe tag can be used to as tool to display a website inside another one.
