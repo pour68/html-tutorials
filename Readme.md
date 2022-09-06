@@ -292,6 +292,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 - ``` </map> ```
 
 - [image map generator](http://image-map.weebly.com/)
+- [url shortener](https://free-url-shortener.rb.gy/)
 
 ---
 

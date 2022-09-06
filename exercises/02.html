@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../favico.ico" type="image/x-icon" />
     <title>formatting elements with marquee</title>
 </head>
 
@@ -18,8 +19,22 @@
         <mark>Aria is awesome!</mark>
     </marquee>
 
-    <marquee behavior="scroll" direction="right" scrollamount="10">
+    <marquee behavior="scroll" direction="right" scrollamount="60" scrolldelay="180">
         <del>Aria is awesome!</del>
+    </marquee>
+
+    <marquee behavior="scroll" direction="down" scrollamount="15">
+        <ins>Aria is awesome!</ins>
+    </marquee>
+
+    <marquee behavior="slide" direction="left" scrollamount="6">
+        <small>Aria is awesome!</small>
+    </marquee>
+
+    <marquee behavior="alternate" direction="left" width="200" bgcolor="red">
+        <marquee behavior="alternate" direction="down" height="200" bgcolor="red">
+            <b>Aria is awesome!</b>
+        </marquee>
     </marquee>
 
 </body>
