@@ -340,6 +340,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 - [meta tags](https://htmlcheatsheet.com/)
 - [image splitter](https://pinetools.com/split-image)
+- [image cutter](https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php)
 - [convert png to ico](https://www.freeconvert.com/png-to-ico)
 
 ---
@@ -357,6 +358,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 1. What is CDN?
 2. What is deep and dark web?
 3. What is device mac-address?
+4. what is difference between static and dynamic webpages?
 
 ### Exercise 2
 
