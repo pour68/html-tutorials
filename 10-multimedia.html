@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon" />
+    <title> Multimedia </title>
+</head>
+
+<body>
+
+    <!-- video type 1 -->
+    <figure>
+        <video src="videos/nature.mp4" width="500" controls muted autoplay loop="-1">
+            Your browser does not support HTML5 video.
+        </video>
+    </figure>
+
+    <!-- video type 2 -->
+    <figure>
+        <video controls muted autoplay loop="-1">
+            <source src="videos/big-buck-bunny.mp4" type="video/mp4" />
+            <source src="videos/big-buck-bunny.ogv" type="video/ogg" />
+            Your browser does not support HTML5 video.
+        </video>
+    </figure>
+
+    <!-- audio type 1 -->
+    <div>
+        <audio src="audios/horse.mp3" controls muted autoplay loop="-1">
+            Your browser does not support HTML5 audio.
+        </audio>
+    </div>
+
+    <!-- audio type 2 -->
+    <div>
+        <audio controls muted autoplay loop="-1">
+            <source src="audios/horse.ogv" type="audio/ogg" />
+            <source src="audios/horse.mp3" type="audio/mpeg" />
+            Your browser does not support HTML5 audio.
+        </audio>
+    </div>
+
+    <!-- plugin -->
+    <object data="images/desktop-467.jpg" type="image/jpeg" width="500">
+        <embed src="images/desktop-467.jpg" type="image/jpeg" width="500" />
+        Your browser does not support HTML5 plugin.
+    </object>
+
+</body>
+
+</html>

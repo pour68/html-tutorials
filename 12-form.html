@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon" />
+    <title> form </title>
+</head>
+
+<body>
+
+    <!-- form -->
+    <form action="" method="get" enctype="multipart/form-data" autocomplete="on" novalidate>
+
+        <!-- label and input:text -->
+        <div>
+            <label for="query">Search:</label>
+            <input type="text" name="query" id="query" placeholder="Products, categories..." minlength="2"
+                maxlength="250" size="32" required autofocus readonly disabled />
+        </div>
+
+        <!-- label and input:number -->
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="160" step="2" />
+        </div>
+
+        <!-- label and input:password -->
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd" pattern="\w{8,32}" placeholder="min 8 length..." />
+        </div>
+
+        <!-- label and input:email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" value="a@a.com" />
+        </div>
+
+        <!-- label and input:search -->
+        <div>
+            <label for="search">Search:</label>
+            <input type="search" name="search" id="search" />
+        </div>
+
+        <!-- label and input:tel -->
+        <div>
+            <label for="tel">Telephone:</label>
+            <input type="tel" name="tel" id="tel" />
+        </div>
+
+        <!-- label and input:url -->
+        <div>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url" />
+        </div>
+
+        <!-- input:hidden -->
+        <input type="hidden" name="id" value="dgk-10" />
+
+        <!-- label and input:range -->
+        <div>
+            <label for="volume"></label>
+            <input type="range" name="volume" id="volume" min="0" max="100" />
+        </div>
+
+        <!-- label and input:date -->
+        <div>
+            <label for="birthdate">Birthdate: </label>
+            <input type="date" name="birthdate" id="birthdate" min="2002-10-23" max="2022-10-29" />
+        </div>
+
+        <!-- label and input:week -->
+        <div>
+            <label for="week">Todos: </label>
+            <input type="week" id="week" name="week" />
+        </div>
+
+        <!-- label and input:month -->
+        <div>
+            <label for="month">Month: </label>
+            <input type="month" id="month" name="month" />
+        </div>
+
+        <!-- label and input:datetime-locale -->
+        <div>
+            <label for="datetime-locale">Date: </label>
+            <input type="datetime-locale" id="datetime-locale" name="datetime-locale" />
+        </div>
+
+        <!-- label and input:visit -->
+        <div>
+            <label for="time">Visit time: </label>
+            <input type="time" id="time" name="time" />
+        </div>
+
+        <!-- label and input:color -->
+        <div>
+            <label for="favorite-color">Favorite color: </label>
+            <input type="color" id="favorite-color" />
+        </div>
+
+        <!-- label and input:file -->
+        <div>
+            <label for="avatar">Avatar</label>
+            <input type="file" name="file" id="avatar" multiple />
+        </div>
+
+        <!-- label and textarea -->
+        <div>
+            <label for="description">Description: </label>
+            <textarea cols="15" rows="5" id="description"></textarea>
+        </div>
+
+        <!-- fieldset and legend -->
+        <fieldset>
+
+            <legend>Details</legend>
+
+            <!-- input:checkbox and label -->
+            <div>
+                <input type="checkbox" id="bike" name="bike" value="Bike" />
+                <label for="bike"> I have a bike</label><br />
+                <input type="checkbox" id="car" name="car" value="Car" />
+                <label for="car"> I have a car</label><br />
+                <input type="checkbox" id="boat" name="boat" value="Boat" />
+                <label for="boat"> I have a boat</label>
+            </div>
+
+            <!-- input:radio and label -->
+            <div>
+                <input type="radio" id="html" name="language" value="HTML" />
+                <label for="html">HTML</label> <br />
+                <input type="radio" id="css" name="language" value="CSS" />
+                <label for="css">CSS</label> <br />
+                <input type="radio" id="javascript" name="language" value="JavaScript" />
+                <label for="javascript">JavaScript</label>
+            </div>
+
+            <!-- label and select > optgroup > option  -->
+            <div>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <optgroup label="Swedish Cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <!-- label and datalist -->
+            <div>
+                <label for="browser">Choose your browser from the list:</label>
+                <input list="browsers" name="browser" id="browser" />
+
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </div>
+
+            <!-- progress -->
+            <div>
+                <progress value="50" max="100"> 32% </progress>
+            </div>
+
+            <!-- meter -->
+            <div>
+                <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter>
+            </div>
+
+            <!-- button[type="submit"] -->
+            <button type="submit">Submit</button>
+            <!-- button[type="reset"] -->
+            <button type="reset">Reset</button>
+            <!-- button[type="button"] -->
+            <button type="button">Button</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

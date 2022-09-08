@@ -73,6 +73,14 @@ HTML stands for HyperText Markup Language.
 
 ---
 
+## Difference ways of opening a project in vscode
+
+---
+
+## Get familiar with vscode
+
+---
+
 ### VSCode extensions
 
 - Live server
@@ -89,23 +97,41 @@ HTML stands for HyperText Markup Language.
 UI: User interface of application.
 UX: User experience of user based on the application.
 
+- UX without UI: Brain without a body.
+- UI without UX: Body without a brain.
+
 ---
 
 ## UI sections
 
+UI designers make products joyful to interact with, they focus on visual hierarchy and patterns that give visual cues to users.
+
 - Typography
-- Color
+- Color scheme
+- Iconography
 - Container
+- Layout
 - HyperLink
 - Table
 - List
 - Figure
 - Multimedia
+- Graphic
 - Form
+- Animation
 
 ---
 
 ## UX sections
+
+UX always puts users needs first when considering design solutions in order to enhance customer satisfaction.
+
+- Defining a problem
+- Understanding users
+- Creating personas
+- Generating tasks and user flows
+- Creating sketches, wireframes and prototypes
+- Usability testing
 
 - Experience strategy
 - User research
@@ -499,7 +525,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 - form - label - input -  select - option - textarea - button - fieldset - legend - datalist - output - optgroup - datalist - output - progress - meter
 
+### Form
+
 - ``` <form method="get|post" action="url" enctype="multipart/form-data" autocomplete="on" novalidate> content </form> ```
+
+### Label and input
+
 - ``` <label for="input id">plain text</label> ```
 - ``` <input type="text|password|email|search|tel|url" id="" class="" placeholder="" value="" pattern="" minlength="" maxlength=" name="" size="" required autofocus readonly disabled /> ```
 - ``` <input type="hidden" /> ```
@@ -513,20 +544,45 @@ key/value paired data that defines on start tag of html tags and control the beh
 - ``` <input type="radio" checked /> ```
 - ``` <input type="color" /> ```
 - ``` <input type="file" multiple /> ```
+
+### Textarea
+
 - ``` <textarea cols="" rows=""></textarea> ```
+
+### Dropdown
+
 - ``` <select> <option value=""></option> <option value=""></option> </select> ```
+
 - ```<select  name="cars" id="cars"> <optgroup label="Swedish Cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> </optgroup> <optgroup label="German Cars"> <option value="mercedes">Mercedes</option> <option value="audi">Audi</option> </optgroup> </select>```
+
+### Button
+
 - ``` <input type="button|reset|submit|image" value="" /> ```
 - ``` <button type="button|reset|submit"> content </button> ```
+
+### Fieldset and legend
+
 - ``` <fieldset> <legend> label </legend> </fieldset> ```
-- ``` <label for="browser">Choose your browser from the list:</label> <input list="browsers" name="browser" id="browser" /> <datalist id="browsers"> <option value="Edge" /> <option value="Firefox" /> <option value="Chrome" /> <option value="Opera" /> <option value="Safari" /></datalist> ```
-- ``` <form oninput="x.value=parseInt(a.value)+parseInt(b.value)"> <input type="range" id="a" value="50" /> + <input type="number" id="b" value="25" /> = <output name="x" for="a b"></output> </form> ```
-- ``` <progress value="32" max="100"> 32% </progress> ```
-- ``` <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter> ```
 
 1. ``` The <fieldset> tag is used to group related elements in a form ```
 2. ``` The <fieldset> tag draws a box around the related elements. ```
 3. ``` The <legend> tag is used to define a caption for the <fieldset> element. ```
+
+### Datalist
+
+- ``` <label for="browser">Choose your browser from the list:</label> <input list="browsers" name="browser" id="browser" /> <datalist id="browsers"> <option value="Edge" /> <option value="Firefox" /> <option value="Chrome" /> <option value="Opera" /> <option value="Safari" /></datalist> ```
+
+### Output
+
+- ``` <form oninput="x.value=parseInt(a.value)+parseInt(b.value)"> <input type="range" id="a" value="50" /> + <input type="number" id="b" value="25" /> = <output name="x" for="a b"></output> </form> ```
+
+### Progress bar
+
+- ``` <progress value="32" max="100"> 32% </progress> ```
+
+### Meter
+
+- ``` <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter> ```
 
 ---
 
@@ -565,3 +621,10 @@ key/value paired data that defines on start tag of html tags and control the beh
 - Web storage
 - Web workers
 - SSE
+
+---
+
+## Resources
+
+- Pexels
+- Unsplash
