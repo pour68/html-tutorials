@@ -624,6 +624,24 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ---
 
+## Data attribute
+
+- data-*
+- Specify attribute
+
+``` <article id="electric-cars" data-id="3"> ... </article> ```
+
+- Get by css
+
+``` article::before { content: attr(data-parent); } ```
+
+- Get by javascript
+
+``` const article = document.querySelector('#electric-cars'); ```
+``` article.dataset.id ```
+
+---
+
 ## Resources
 
 - [Pexels](https://www.pexels.com/)
