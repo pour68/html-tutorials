@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #FCF5C7;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.html {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 1rem 0;
+}
+
+.html__title {
+    font-size: 8vmin;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #FF6106;
+}
+
+.html__list {
+    margin-top: 1rem;
+    list-style-position: inside;
+}
+
+.html__item::marker {
+    color: #FF6106;
+}
+
+.html__item {
+    margin: 0.3rem 0;
+}
+
+.html__link {
+    text-decoration: none;
+}
+
+.banner {
+    margin: 2rem 0;
+}
+
+.banner__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner__description {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .html {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .html__topics,
+    .html__exercises {
+        flex-basis: 50%;
+        padding-left: 0.5rem;
+    }
+}
