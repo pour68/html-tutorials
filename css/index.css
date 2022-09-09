@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 868px) {
     .html {
         flex-direction: row;
         justify-content: flex-start;
