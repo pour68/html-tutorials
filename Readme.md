@@ -551,9 +551,9 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ### Dropdown
 
-- ``` <select> <option value=""></option> <option value=""></option> </select> ```
+- ``` <select name="cars" id="cars"> <option value="mercedes">Mercedes</option> <option value="audi">Audi</option> </select> ```
 
-- ```<select  name="cars" id="cars"> <optgroup label="Swedish Cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> </optgroup> <optgroup label="German Cars"> <option value="mercedes">Mercedes</option> <option value="audi">Audi</option> </optgroup> </select>```
+- ``` <select name="cars" id="cars"> <optgroup label="Swedish Cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> </optgroup> <optgroup label="German Cars"> <option value="mercedes">Mercedes</option> <option value="audi">Audi</option> </optgroup> </select> ```
 
 ### Button
 
@@ -626,5 +626,5 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ## Resources
 
-- Pexels
-- Unsplash
+- [Pexels](https://www.pexels.com/)
+- [Unsplash](https://unsplash.com/)
