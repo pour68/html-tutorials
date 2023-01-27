@@ -15,33 +15,25 @@
 ## History
 
 - founder: Tim Berners-Lee (is an English computer scientist best known as the inventor of www)
-- birthdate: 1993
-- story: The first version of HTML was written by Tim Berners-Lee in 1993 that is extension of SGML, since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999, Another version, XHTML, was a rewrite of HTML as an XML language became an official standard in 2000 and then HTML5 became an latest HTML standard in 2011 till now.
+- birthdate: 1991
+- story: The first version of HTML was written by Tim Berners-Lee in 1991 that is extension of SGML, since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999, Another version, XHTML, was a rewrite of HTML as an XML language became an official standard in 2000 and then HTML5 became an latest HTML standard in 2011 till now.
 - goals: HTML code ensures the proper formatting of text and images for your Internet browser. Without HTML, a browser would not know how to display text as elements or load images or other elements. HTML also provides a basic structure of the page, upon which Cascading Style Sheets are overlaid to change its appearance.
 - GML(1969)(Charles Goldfarb, Edward Mosher and Raymond Lorie) -> SGML(1986)(IBM) -> XML(1990)(W3C) -> HTML(1993)(W3C & WHATWG)
 - Mime-type: text/html
 
 ![Tim Berners-Lee](https://github.com/pour68/html-tutorials/blob/master/images/tim-berners-lee.png "Tim Berners-Lee")
 
----
-
 ## Why HTML?
 
 HTML is markup language for building web pages its also called language of tags.
-
----
 
 ## HTML definition
 
 HTML stands for HyperText Markup Language.
 
----
-
 ## HTML file extensions
 
 - .htm - .html
-
----
 
 ## HTML file structure
 
@@ -51,19 +43,13 @@ HTML stands for HyperText Markup Language.
 ``` <body> ... </body> ```
 ``` </html> ```
 
----
-
 ## head tag application
 
 ``` head tag is a container for meta data ```
 
----
-
 ## body tag application
 
 ``` body tag is a container for visible part of the page ```
-
----
 
 ## Setting up your development environment
 
@@ -71,15 +57,9 @@ HTML stands for HyperText Markup Language.
 - Advance TextEditor: VSCode - Atom - ...
 - IDE: Visual studio - ...
 
----
-
 ## Difference ways of opening a project in vscode
 
----
-
 ## Get familiar with vscode
-
----
 
 ### VSCode extensions
 
@@ -90,8 +70,6 @@ HTML stands for HyperText Markup Language.
 - Material icon theme
 - Prettier
 
----
-
 ## UI & UX
 
 UI: User interface of application.
@@ -99,8 +77,6 @@ UX: User experience of user based on the application.
 
 - UX without UI: Brain without a body.
 - UI without UX: Body without a brain.
-
----
 
 ## UI sections
 
@@ -120,8 +96,6 @@ UI designers make products joyful to interact with, they focus on visual hierarc
 - Form
 - Animation
 
----
-
 ## UX sections
 
 UX always puts users needs first when considering design solutions in order to enhance customer satisfaction.
@@ -138,14 +112,10 @@ UX always puts users needs first when considering design solutions in order to e
 - Information architecture
 - Interaction design
 
----
-
 ## HTML analogy
 
 - human-body skeleton
 - skeleton of building
-
----
 
 ## Comment
 
@@ -156,14 +126,10 @@ UX always puts users needs first when considering design solutions in order to e
 - single line
 - multiline
 
----
-
 ## Sketch, wireframe, prototype apps
 
 - figma
 - adobe xd
-
----
 
 ## HTML tag types
 
@@ -172,8 +138,6 @@ UX always puts users needs first when considering design solutions in order to e
 - pair tag
 ``` e.g: <p> plain text </p> ```
 
----
-
 ## Difference between plaintext and content
 
 - plaintext
@@ -181,16 +145,12 @@ UX always puts users needs first when considering design solutions in order to e
 - content
 ``` e.g: <p> plain text <br /> </p> ```
 
----
-
 ## Paragraph tag
 
 - ``` <p> paragraph tag </p> ```
 - HTML category: Pair tag
 - UI category: Typography
 - Paragraph tag is suitable for plain text and content.
-
----
 
 ## Headings
 
@@ -200,13 +160,9 @@ UX always puts users needs first when considering design solutions in order to e
 - UI category: Typography
 - Heading tags is suitable for plain text and content.
 
----
-
 ## What is emmet?
 
 high-speed markup language tag generator.
-
----
 
 ## emmet method
 
@@ -219,8 +175,6 @@ high-speed markup language tag generator.
 ``` e.g.: header.header#header>nav.nav>ul.nav__list>li.nav__item*6>a.nav__link^main+footer ```
 ``` e.g.: form:post>(.group>label+input:text)+(.group>label+input:number) ```
 
----
-
 ## Formatting elements
 
 - b - strong - i - em - del - ins - mark - sub - sup
@@ -228,8 +182,6 @@ high-speed markup language tag generator.
 - HTML category: Pair tag
 - UI category: Typography
 - formatting tags is suitable for plain text and content.
-
----
 
 ## Marquee element(obsolete)
 
@@ -239,14 +191,10 @@ high-speed markup language tag generator.
 - scrollDelay: Sets the interval between each scroll movement in milliseconds. The default value is 85. Note that any value smaller than 60 is ignored and the value 60 is used instead, unless truespeed is specified.
 - truespeed: By default,scrolldelay values lower than 60 are ignored. If truespeed is present, those values are not ignored.
 
----
-
 ## HTML tags behavior
 
 - inline-level
 - block-level
-
----
 
 ## Attributes
 
@@ -259,8 +207,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - [language code](https://www.w3schools.com/tags/ref_language_codes.asp)
 - [country code](https://www.w3schools.com/tags/ref_country_codes.asp)
 
----
-
 ## Anchor element
 
 - a
@@ -268,8 +214,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: HyperLink
 - Link
-
----
 
 ## Quotation elements
 
@@ -283,8 +227,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Typography
 
----
-
 ## Computer code
 
 - code - kbd - samp - pre - var
@@ -296,8 +238,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Typography
 
----
-
 ## Image
 
 - img
@@ -305,8 +245,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Empty tag
 - UI category: Figure
 - Image
-
----
 
 ## Image map
 
@@ -321,8 +259,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - [image map generator](http://image-map.weebly.com/)
 - [url shortener](https://free-url-shortener.rb.gy/)
 
----
-
 ## Picture
 
 - ``` <picture> ```
@@ -333,8 +269,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Figure
 - Picture
-
----
 
 ## Questions 1
 
@@ -348,8 +282,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 2. What is os ISO file?
 3. What is hardware?
 4. What is software?
-
----
 
 ## Meta tags
 
@@ -369,15 +301,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 - [image cutter](https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php)
 - [convert png to ico](https://www.freeconvert.com/png-to-ico)
 
----
 
 ## Style & Script
 
 ``` <link rel="stylesheet" href="url" /> ```
 ``` <script src="url"></script> ```
 ``` <noscript>Your browser does not support JavaScript</noscript> ```
-
----
 
 ## Question 2
 
@@ -392,16 +321,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 2. How to access windows charset?
 3. How to access windows emojis?
 
----
-
 ## Browser JavaScript engines
 
 - Safari v8
 - IE/Edge Chakra
 - FF Spider Monkey
 - Apple Javascript Core Webkit
-
----
 
 ## Container elements
 
@@ -410,8 +335,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - HTML category: Pair tag
 - UI category: Container
 - Container tags can be a container for all html tags.
-
----
 
 ## Semantic elements
 
@@ -425,27 +348,19 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: Container
 - Container tags can be a container for all html tags.
 
----
-
 ## HTML validator
 
 - [W3 HTML validator](https://validator.w3.org/)
 
----
-
 ## HTML vs XHTML
 
 - [XHTML vs HTML](https://www.w3schools.com/html/html_xhtml.asp)
-
----
 
 ## Entities, Symbol and emojis
 
 - [HTML entities](https://www.w3schools.com/html/html_entities.asp)
 - [HTML symbol](https://www.w3schools.com/html/html_symbols.asp)
 - [HTML emojis](https://www.w3schools.com/html/html_emojis.asp)
-
----
 
 ## Table elements
 
@@ -457,8 +372,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 - [HTML table generator](https://www.textfixer.com/html/html-table-generator.php)
 
----
-
 ## List elements
 
 - ul - ol - dl - li - dt - dd
@@ -468,8 +381,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: List
 - List tag can be a container for all list items.
 
----
-
 ## Iframe element
 
 - iframe
@@ -478,15 +389,11 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: Multimedia
 - Iframe tag can be used to as tool to display a website inside another one.
 
----
-
 ## Questions 3
 
 1. Client/Server pattern
 2. [HTTP response status code](https://www.w3schools.com/tags/ref_httpmessages.asp)
 3. [HTTP methods](https://www.w3schools.com/tags/ref_httpmethods.asp)
-
----
 
 ## Multimedia elements
 
@@ -501,8 +408,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: Multimedia
 - Multimedia tags is used to display multimedia content in html document.
 
----
-
 ## Question 3
 
 1. Computer components
@@ -511,15 +416,11 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 1. Computer buying guide
 
----
-
 ## Graphic elements
 
 - svg - canvas
 - ``` <svg width="100" height="100"> <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /> </svg> ```
 - ``` <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"> Your browser does not support the HTML canvas tag. </canvas> ```
-
----
 
 ## Form elements
 
@@ -584,26 +485,18 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 - ``` <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter> ```
 
----
-
 ## Input form attribute
 
 - ``` <form id="login"></form> <input type="text" form="login" /> ```
 - ``` <form> <input type="submit" formaction="url" formenctype="multipart/form-data" formmethod="post" formtarget="_blank" formnovalidate="formnovalidate" value="" /> </form> ```
 
----
-
 ## URL encoding/decoding
 
 - [URL encoding/decoding](https://meyerweb.com/eric/tools/dencoder/)
 
----
-
 ## Browser support
 
 - [can I use](https://caniuse.com/)
-
----
 
 ## HTML accessibility
 
@@ -612,8 +505,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 - [Aria attribute helper](https://www.w3.org/TR/html-aria/)
 
----
-
 ## HTML API
 
 - GeoLocation
@@ -621,8 +512,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 - Web storage
 - Web workers
 - SSE
-
----
 
 ## Data attribute
 
@@ -639,8 +528,6 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ``` const article = document.querySelector('#electric-cars'); ```
 ``` article.dataset.id ```
-
----
 
 ## Resources
 
