@@ -53,7 +53,7 @@ HTML stands for HyperText Markup Language.
 
 ## Setting up your development environment
 
-- TextEditor: Notepad(windows) - TextEdit(macos) - vim(linux)
+- TextEditor: Notepad(windows) - TextEdit(macos) - Vim(linux)
 - Advance TextEditor: VSCode - Atom - ...
 - IDE: Visual studio - ...
 
