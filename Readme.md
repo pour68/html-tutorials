@@ -119,12 +119,20 @@ UX always puts users needs first when considering design solutions in order to e
 
 ## Comment
 
-- ``` <!-- comment --> ```
+``` <!-- comments are not displayed by the browser, but they can help document your HTML source code --> ```
+
+### use cases
+
+- documentation
+- notification
+- reminder
+- debugging
+- hide content
 
 ### Types
 
-- single line
-- multiline
+- single-line
+- multi-line
 
 ## Sketch, wireframe, prototype apps
 
@@ -218,12 +226,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 ## Quotation elements
 
 - q - abbr - address - blockquote - cite - bdo
-- ``` <q> quotation element </q> ```
-- ``` <abbr> abbreviation </abbr> ```
-- ``` <address> address </address> ```
-- ``` <blockquote cite="url"> quote </blockquote> ```
-- ``` <cite> artwork </cite> ```
-- ``` <bdo dir="ltr"> bi-directional override </bdo> ```
+- ``` <q> a short quotation </q> ```
+- ``` <abbr title="description of acronym"> abbreviation </abbr> ```
+- ``` <address> defines contact information for the author/owner of a document </address> ```
+- ``` <blockquote cite="url"> a section that is quoted from another source </blockquote> ```
+- ``` <cite> the title of a creative work </cite> ```
+- ``` <bdo dir="ltr"> used to override the current text direction </bdo> ```
 - HTML category: Pair tag
 - UI category: Typography
 
