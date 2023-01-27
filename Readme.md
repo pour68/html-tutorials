@@ -25,7 +25,10 @@
 
 ## Why HTML?
 
-HTML is markup language for building web pages its also called language of tags.
+HTML is standard markup language for building web pages its also called language of tags.
+HTML describes the structure of a Web page.
+HTML consists of a series of elements.
+HTML elements tell the browser how to display the content.
 
 ## HTML definition
 
@@ -331,9 +334,9 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ## Browser JavaScript engines
 
-- Safari v8
-- IE/Edge Chakra
-- FF Spider Monkey
+- Safari V8
+- IE/Edge Chakra/V8
+- FireFox Spider Monkey
 - Apple Javascript Core Webkit
 
 ## Container elements
