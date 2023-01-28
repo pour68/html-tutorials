@@ -220,9 +220,9 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 Note:
 
-- class used to select multiple elements in html document.
-- id used to select single element in html document.
-- id can be used to create bookmark in html document by the help of url fragment.
+- class used to select multiple elements in html document
+- id used to select single element in html document
+- id can be used to create bookmark in html document by the help of url fragment
 
 ## Anchor element
 
@@ -231,6 +231,12 @@ Note:
 - HTML category: Pair tag
 - UI category: HyperLink
 - Link
+
+Note:
+
+- address can be relative or absolute
+- address can contains fragment in order to create bookmark
+- address can contains parameters
 
 ## Quotation elements
 
