@@ -218,6 +218,12 @@ key/value paired data that defines on start tag of html tags and control the beh
 - [language code](https://www.w3schools.com/tags/ref_language_codes.asp)
 - [country code](https://www.w3schools.com/tags/ref_country_codes.asp)
 
+Note:
+
+- class used to select multiple elements in html document.
+- id used to select single element in html document.
+- id can be used to create bookmark in html document by the help of url fragment.
+
 ## Anchor element
 
 - a
@@ -281,6 +287,11 @@ key/value paired data that defines on start tag of html tags and control the beh
 - UI category: Figure
 - Picture
 
+Note: bandwidth and format support are reasons for selecting picture over img.
+
+- bandwidth: If you have a small screen or device, it is not necessary to load a large image file.
+- format support: The browser will use the first ```<source>``` element with matching attribute values, and ignore any following ```<source>``` elements.
+
 ## Questions 1
 
 1. What is a computer?
@@ -304,7 +315,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 - ``` <meta name="viewport" content="width=device-width, initial-scale=1.0" /> ```
 - ``` <meta http-equiv="refresh" content="30" /> ```
 - ``` <base href="https://www.w3schools.com/" target="_blank" /> ```
-- ``` <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> ```
+- ``` <link rel="icon" href="favicon.ico" type="image/x-icon" /> ```
 - For SEO & Technical purposes.
 
 - [meta tags](https://htmlcheatsheet.com/)
@@ -312,6 +323,7 @@ key/value paired data that defines on start tag of html tags and control the beh
 - [image cutter](https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php)
 - [convert png to ico](https://www.freeconvert.com/png-to-ico)
 
+Note: link element defines the relationship between a document and an external resource.
 
 ## Style & Script
 
@@ -375,22 +387,33 @@ key/value paired data that defines on start tag of html tags and control the beh
 
 ## Table elements
 
-- table - caption - tr - th - td - thead - tbody - tfoot
+- table - caption - tr - th - td - thead - tbody - tfoot - colgroup - col
 - ``` <table> <tr> <th> ID </th> <th> Name </th> </tr> <tr> <td> 1 </td> <td> Pouria </td> </tr>  </table> ```
+- ``` <table> <colgroup> <col span="2" style="background-color: lightblue" /> <col span="3" style="visibility: collapse" /> </colgroup> <tr> <th> MON </th> <th> TUE </th> ... </tr> <tr> ... </tr>  </table> ```
 - HTML category: Pair tag
 - UI category: Table
 - Table tag can be a container for all tabular data.
 
 - [HTML table generator](https://www.textfixer.com/html/html-table-generator.php)
 
+Note: tables allow web developers to arrange data into rows and columns.
+
 ## List elements
 
 - ul - ol - dl - li - dt - dd
 - ``` <ul type="circle|square|disc|none"> <li>Mango</li> <li>Milk</li> </ul> ```
-- ``` <ol type="1|A|a|I|i" reversed> <li>Mango</li> <li>Milk</li> </ol> ```
+- ``` <ol type="1|A|a|I|i" start="" reversed> <li>Mango</li> <li>Milk</li> </ol> ```
 - HTML category: Pair tag
 - UI category: List
 - List tag can be a container for all list items.
+
+Note: lists allow web developers to group a set of related items in lists.
+
+### types
+
+- unordered list
+- ordered list
+- description list
 
 ## Iframe element
 
